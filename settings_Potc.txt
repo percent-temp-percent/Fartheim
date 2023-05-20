@@ -1,0 +1,49 @@
+// VRMモデルのスケール Default=1.1
+// VRM model scale.
+ModelScale=1.2
+
+// VRMモデルの明るさ　Default=0.8
+// VRM model brightness.
+ModelBrightness=0.8
+
+// カメラの位置をVRMモデルの身長に合わせるか　true:合わせる false:合わせない Default=true
+// Adjust the camera position to the height of the VRM model.
+FixCameraHeight=true
+
+// モデルのY座標オフセット Default=0.0
+// Y-coordinate offset of the model.
+ModelOffsetY=0.0
+
+// MToonシェーダを使うか true:使う false:使わない Default=false
+// 使う場合はグラフィック設定の「SSAO」を Off にしてください。
+// Use the MToon shader.
+// If you want to use it, set "SSAO" to Off in the graphics settings.
+UseMToonShader=false
+
+// 右手の装備位置のオフセット Default=(0,0,0)
+// Offset of the equipment position of the right hand.
+RightHandEuqipPos=(0,0,0)
+
+// 左手の装備位置のオフセット Default=(0,0,0)
+// Offset of the equipment position of the left hand.
+LeftHandEuqipPos=(0,0,0)
+
+// 右手の後ろアイテム位置のオフセット Default=(0,0,0)
+// Offset of back item position of the right hand. (+Y is forward)
+RightHandBackItemPos=(0,0,0)
+
+// 左手の後ろアイテム位置のオフセット Default=(0,0,0)
+// Offset of back item position of the left hand. (+Y is forward)
+LeftHandBackItemPos=(0,0,0)
+
+// SpringBoneの硬さ Default=1.0
+// Stiffness of SpringBone.
+SpringBoneStiffness=1.0
+
+// SpringBoneの重力の強さ Default=1.0
+// Gravity strength of SpringBone.
+SpringBoneGravityPower=1.0
+
+// カメラが近づいた時にプレイヤーをフェードアウトさせるか Default=true
+// Make the player fade out when the camera gets close.
+EnablePlayerFade=true
