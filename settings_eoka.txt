@@ -4,7 +4,7 @@
 ModelScale=1.1
 
 // Y-coordinate offset of the model
-ModelOffsetY=0
+ModelOffsetY=0.15
 
 // Player collider height 1.85
 PlayerHeight=1.85
@@ -61,7 +61,7 @@ StaffSkeletonPos=(0, 0, 0)
 //--- Misc ---//
 
 // VRM model brightness 0.8
-ModelBrightness=0.8
+ModelBrightness=1.8
 
 // This will process and turn textures into standard textures. it will take some time, like 20 seconds or so if your avatar has a lot of textures.
 // cannot be used at the same time as UseMToonShader, and will override the UseMToonShader setting
@@ -87,10 +87,10 @@ AllowShare=true
 //--- SpringBone settings ---//
 
 // Stiffness scale of SpringBone
-SpringBoneStiffness=0.48
+SpringBoneStiffness=0.27
 
 // Gravity strength scale of SpringBone
-SpringBoneGravityPower=0.2
+SpringBoneGravityPower=5.7
 
 
 
